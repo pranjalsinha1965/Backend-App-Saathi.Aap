@@ -87,6 +87,11 @@ travel-itinerary-api/
 **Recommendation Engine** : Suggests destinations, activities, and places to visit based on user data, social context, and previous travel habits.
 Itinerary Generation: Generates day-wise travel plans, including activity recommendations and estimated costs, tailored to the user’s spending habits.
 
+**Video Description** : Please click on the below given link to see how my application runs: 
+[Travel-App](https://drive.google.com/file/d/1G75CxEO4bD4oBNgTteoCnwFGvhtrkBg9/view?usp=sharing)
+
+
+
 ### Troubleshooting:
 **Port Conflicts** : Ensure no other processes are running on port 3000. Use netstat and kill commands as needed to free up the port.
 **Docker Issues** : If encountering errors with Docker containers, follow the Docker commands provided in the setup instructions above.

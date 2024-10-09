@@ -55,7 +55,7 @@ Home Route: http://localhost:3000
 # Project Structure:
 
 ``` bash 
-travel-itinerary-api/(Backend-Saathi.Aap)
+travel-itinerary-api/(Backend-App-Saathi.Aap)
 ├── backend/
 │   ├── config/
 │   │   └── db.js                   # Database configuration (MySQL)

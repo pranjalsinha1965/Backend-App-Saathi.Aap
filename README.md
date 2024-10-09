@@ -67,7 +67,7 @@ travel-itinerary-api/(Backend-App-Saathi.Aap)
 │   │   └── userModel.js            # Database interaction models
 │   ├── routes/
 │   │   └── itineraryRoutes.js      # API routes
-│── mysql
+│── mysql/
 │   │ ── users.csv                  # User data
 │   │ ── trips.csv                  # Trip data
 │   │ ── instagramPhotos.csv        # Instagram data

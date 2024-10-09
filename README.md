@@ -55,7 +55,7 @@ Home Route: http://localhost:3000
 # Project Structure:
 
 ``` bash 
-travel-itinerary-api/
+travel-itinerary-api/(Backend-Saathi.Aap)
 ├── backend/
 │   ├── config/
 │   │   └── db.js                   # Database configuration (MySQL)
@@ -67,12 +67,12 @@ travel-itinerary-api/
 │   │   └── userModel.js            # Database interaction models
 │   ├── routes/
 │   │   └── itineraryRoutes.js      # API routes
-│   ├── data/
-│   │   ├── users.csv               # User data
-│   │   ├── trips.csv               # Trip data
-│   │   └── instagramPhotos.csv     # Instagram data
-│   ├── app.js                      # Express app configuration
-│   └── server.js                   # Server entry point
+│── mysql
+│   │ ── users.csv                  # User data
+│   │ ── trips.csv                  # Trip data
+│   │ ── instagramPhotos.csv        # Instagram data
+│── app.js                          # Express app configuration
+│── server.js                       # Server entry point
 ├── node_modules/                   # External libraries
 ├── .env                            # Environment variables
 ├── package.json                    # NPM dependencies

@@ -1,0 +1,4 @@
+user_id,name,email,vibe,favorite_activities,cluster
+2,Bob,bob@example.com,Relaxation,"Reading, Spa",2
+3,Charlie,charlie@example.com,Socializing,"Partying, Networking",1
+4,Diana,diana@example.com,Adventure,"Hiking, Surfing",0

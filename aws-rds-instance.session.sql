@@ -10,7 +10,7 @@
 --     name VARCHAR(100),
 --     email VARCHAR(100),
 --     vibe VARCHAR(50),
---     favorite_activities TEXT
+--     favorite_activities TEXT)
 
 -- Create the Trips table
 -- CREATE TABLE Trips (
@@ -58,10 +58,16 @@
 -- (3, 'https://instagram.com/photo3', 'Las Vegas', '#party #fun #vacation'),
 -- (4, 'https://instagram.com/photo4', 'New York', '#city #explore #adventure');
 
-select * from InstagramPhotos;
-select * from Trips;
-select * from Users;
+-- INSERT INTO Users (user_id, name, email, vibe, favorite_activities) VALUES 
+-- (6, 'Frank', 'frank@example.com', 'Adventure', 'Rock Climbing, Kayaking'), 
+-- (7, 'Grace', 'grace@example.com', 'Relaxation', 'Yoga, Meditation'), 
+-- (8, 'Hank', 'hank@example.com', 'Nature', 'Camping, Bird Watching'), 
+-- (9, 'Ivy', 'ivy@example.com', 'Culture', 'Museum Visits, Theater'), 
+-- (10, 'Jack', 'jack@example.com', 'Socializing', 'Bar Hopping, Events');
 
+-- select * from InstagramPhotos;
+-- select * from Trips;
+-- select * from Users;
 
 -- ALTER USER 'admin'@'%' IDENTIFIED BY 'aBcD1234!';
 -- GRANT ALL PRIVILEGES ON itinerarydb2.* TO 'admin'@'%';

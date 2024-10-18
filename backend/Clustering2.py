@@ -1,3 +1,4 @@
+# To run this application activate virtual environment in a particular folder after that use pip install 
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans

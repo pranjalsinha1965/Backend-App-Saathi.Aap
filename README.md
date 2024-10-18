@@ -52,6 +52,37 @@ Once the app is running, you can access the following endpoints:
 Itinerary for User 1 in Hawaii: http://localhost:3000/api/users/1/destination/Hawaii
 Home Route: http://localhost:3000
 
+#### Travel Itinerary API - User-based Recommendations
+
+1. Features added: 
+
+User - Specific Recommendations: 
+
+Fetch recommendations based on the user’s vibe, past trips, and Instagram photos. Supports multiple types of user vibes such as Adventure, Relaxation, Socializing, and more.
+
+New API Endpoint:
+
+GET /api/users/:user_id/recommendations: 
+
+Fetches personalized recommendations based on user preferences, trips, and Instagram data.
+
+``` bash
+curl http://localhost:3000/api/users/1/recommendations
+```
+
+Example Response:
+
+``` json
+{
+  "success": true,
+  "recommendations": [
+    "Explore nearby mountains for hiking and trekking.",
+    "Visit again to: Hawaii",
+    "Instagram Spot: Hawaii - https://instagram.com/photo2"
+  ]
+}
+```
+
 # Project Structure:
 
 ``` bash 
